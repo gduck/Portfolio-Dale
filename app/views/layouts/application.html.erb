@@ -8,9 +8,12 @@
   
   <%= csrf_meta_tags %>
 </head>
+
 <body class="vertical-center body-background">
-
-<%= yield %>
-
+  <header class="col-xs-12">
+    <%= render 'layouts/header' %>
+  </header>
+    <%= yield %>
 </body>
+
 </html>
