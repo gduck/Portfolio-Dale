@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # path 'controller#method'
 
   get '/example' => 'static_pages#examplesPage'
-  
+
   # go to static_pages_controller and add a method
   # then add a page called Harry
   # or change harry to point to the dog page, add a dog page
