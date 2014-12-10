@@ -4,6 +4,12 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'static_pages#index'
+  # path 'controller#method'
+
+  get '/harry' => 'static_pages#dog'
+  # go to static_pages_controller and add a method
+  # then add a page called Harry
+  # or change harry to point to the dog page, add a dog page
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
