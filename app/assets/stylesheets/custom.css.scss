@@ -44,6 +44,10 @@
     background-size: cover;
 }
 
-.intro-subheader {
+a:link .intro-subheader{
+  color: #FFF;
+}
+
+h3 a .intro-subheader {
     color: #fff;
 }
